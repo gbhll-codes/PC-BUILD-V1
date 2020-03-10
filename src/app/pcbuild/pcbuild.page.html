@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>BUILD YOUR PC</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        COMPATIBILITY:
+      </ion-label>
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>CPU</ion-label>
+      <ion-select>
+        <ion-select-option *ngFor="let p of products"
+          >{{p.products}}</ion-select-option
+        >
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>CPU COOLER</ion-label>
+      <ion-select>
+        <ion-select-option *ngFor="let p of products"
+          >{{p.name}}</ion-select-option
+        >
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>MOTHERBOARD</ion-label>
+      <ion-select>
+        <ion-select-option *ngFor="let p of products"
+          >{{p.name}}</ion-select-option
+        >
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>MEMORY</ion-label>
+      <ion-select>
+        <ion-select-option *ngFor="let p of products"
+          >{{p.name}}</ion-select-option
+        >
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>STORAGE</ion-label>
+      <ion-select>
+        <ion-select-option *ngFor="let p of products"
+          >{{p.name}}</ion-select-option
+        >
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>CASE</ion-label>
+      <ion-select>
+        <ion-select-option *ngFor="let p of products"
+          >{{p.name}}</ion-select-option
+        >
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>POWER SUPPLY</ion-label>
+      <ion-select>
+        <ion-select-option *ngFor="let p of products"
+          >{{p.name}}</ion-select-option
+        >
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-item>
+    <ion-label>MONITOR</ion-label>
+    <ion-select>
+      <ion-select-option *ngFor="let p of products"
+        >{{p.name}}</ion-select-option
+      >
+    </ion-select>
+  </ion-item>
+</ion-content>

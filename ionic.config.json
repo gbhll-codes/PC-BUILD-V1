@@ -1,0 +1,7 @@
+{
+  "name": "PCBuild",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
